@@ -1,7 +1,9 @@
+import { PostsList } from "./features/posts/postsList/PostsList";
+
 function App() {
   return (
     <div>
-      App
+      <PostsList />
     </div>
   );
 }
