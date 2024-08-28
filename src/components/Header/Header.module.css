@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 15px 25px;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.company-info:hover .company-icon {
+    color: gray;
+}
+
+.company-info:active {
+    color: grey;
+}
+
+.company-icon {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.company-name {
+    color: black
+}

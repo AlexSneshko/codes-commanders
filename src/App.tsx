@@ -1,9 +1,11 @@
-import { PostsList } from "./features/posts/postsList/PostsList";
+import { Outlet } from "react-router-dom";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
     <div>
-      <PostsList />
+      <Header />
+      <Outlet />
     </div>
   );
 }
