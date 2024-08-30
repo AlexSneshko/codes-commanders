@@ -1,5 +1,19 @@
 .posts-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: #999999;
+  margin: 40px 0;
+}
+
+.error {
+  color: #e57373;
 }

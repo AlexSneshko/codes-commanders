@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+
 import { fetchUserByUsername } from './userAction';
 import { User } from '../../types/user';
 
