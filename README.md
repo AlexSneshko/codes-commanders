@@ -1,6 +1,4 @@
-# codes-commanders
-
-# React Redux Toolkit TypeScript Project
+# codes-commanders: React Redux Toolkit TypeScript Project
 
 ## Запуск проекта
 
@@ -8,17 +6,17 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/react-redux-ts-project.git
+git clone https://github.com/AlexSneshko/codes-commanders.git
 ```
 
 2. Перейдите в директорию проекта:
 ```bash
-npm install
+cd codes-commanders
 ```
 
 3. Установите зависимости:
 ```bash
-git clone https://github.com/yourusername/react-redux-ts-project.git
+npm install
 ```
 
 4. Запустите локальный сервер разработки:
@@ -32,12 +30,12 @@ npm start
 
 1. Соберите Docker-образ:
 ```bash
-docker build -t react-redux-ts-project .
+docker build -t codes-commanders .
 ```
 
 2. Запустите контейнер Docker:
 ```bash
-docker run -p 3000:3000 react-redux-ts-project
+docker run -p 3000:3000 codes-commanders
 ```
 
 Приложение будет доступно по адресу http://localhost:3000.
