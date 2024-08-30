@@ -7,7 +7,7 @@ import { PATH } from "../../constants/path";
 
 import styles from "./SignInForm.module.css";
 
-export const SignInForm: React.FC = () => {
+export const SignInForm = () => {
   const [username, setUsername] = useState("");
   const [validationError, setValidationError] = useState<string | null>(null);
   const dispatch = useAppDispatch();

@@ -9,10 +9,10 @@ interface ProtectedRouteProps {
   children: React.ReactNode;
 }
 
-export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
+export const ProtectedRoute = ({
   redirectPath = PATH.HOME,
   children,
-}) => {
+}: ProtectedRouteProps) => {
   const user = useAppSelector((state) => state.user.user);
 
   if (user) {
